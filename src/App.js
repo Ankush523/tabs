@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
-const url = "https://course-api.netlify.app/api/react-tabs-projects";
+const url = "https://course-api.com/react-tabs-project";
 function App() {
   const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
